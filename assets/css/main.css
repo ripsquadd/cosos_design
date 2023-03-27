@@ -6,20 +6,20 @@
 * {
     margin: 0;
     padding: 0;
+    overflow-x:hidden;
 }
 
 body {
     background-color: black;
-    overflow-x:hidden;
     font-family: "Comic Sans MS", Serif;
 }
 
 .header {
     background-color: rgb(59, 59, 59);
-    padding: 20px;
+    padding: 10px;
     display: inline-flex;
     justify-content: space-around;
-    width: 100%;
+    min-width: 100vw;
 }
 
 .header > a {
@@ -30,9 +30,9 @@ body {
 }
 
 .main {
-    height: 70vh;
     padding: 50px;
     background-color: darkgrey;
+    width: 100vw;
 }
 
 .main > h2 {
@@ -104,6 +104,33 @@ body {
     border-radius: 5px;
 }
 
+input {
+    border-radius: 5px;
+    height: 5vh;
+    border: none;
+    font-family: "Comic Sans MS", Serif;
+}
+
+select {
+    border-radius: 5px;
+    height: 5vh;
+    border: none;
+    font-family: "Comic Sans MS", Serif;
+    width: 169px;
+}
+
+
+form > button {
+    border: none;
+    background-color: black;
+    color: white;
+    height: 5vh;
+    width: 6vw;
+    font-size: 12pt;
+    font-family: "Comic Sans MS", Serif;
+    border-radius: 5px;
+}
+
 .roommenu {
     margin-top: 10px;
 }
@@ -116,9 +143,126 @@ body {
     background-color: black;
     text-align: center;
     padding: 20px;
+    width: 100vw;
 }
 
 .footer > p {
     color: blanchedalmond;
     font-size: 16pt;
+}
+
+.header > form {
+    margin-top: 20px;
+}
+
+.pre-form > form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+.pre-form > form > label {
+    margin: 20px;
+}
+
+.pre-form > form > button {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+.pre-form {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.log {
+    margin-left: 32px;
+}
+
+.pass {
+    margin-left: 23px;
+}
+
+.fnam {
+    margin-left: 43px;
+}
+
+.lnam {
+    margin-left: 9px;
+}
+
+.pat {
+    margin-left: 10px;
+}
+
+.prof {
+    margin-left: 45px;
+}
+
+form > a {
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 12pt;
+    margin-bottom: 5px;
+}
+
+a:hover {
+    color: rgb(255, 78, 225);
+}
+
+input:focus {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    font-weight: bold;
+}
+
+select:focus {
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+button:hover {
+    color: rgb(255, 78, 225);
+}
+
+.edit {
+    width: 7vw;
+}
+
+.utit {
+    margin-left: 5px;
+}
+
+.utyp {
+    margin-left: 45px;
+}
+
+.num {
+    margin-left: 70px;
+}
+
+.rtit {
+    margin-left: 51px;
+}
+
+.rtyp {
+    margin-left: 95px;
+}
+
+.sq {
+    margin-left: 55px;
+}
+
+.ct {
+    margin-left: 35px;
+}
+
+.uni {
+    margin-left: 10px;
 }

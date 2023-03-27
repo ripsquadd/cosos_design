@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WHITESNAKE</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<div class="header">
+  <a href="#">ПОДРАЗДЕЛЕНИЯ</a>
+  <a href="#">ВСЕ ПОМЕЩЕНИЯ</a>
+  <form>
+    <input type="search" name="search_input" id="search">
+    <button>Поиск</button>
+  </form>
+  <a href="#">ДОБАВИТЬ ПОЛЬЗОВАТЕЛЯ</a>
+  <a href="#">ВОЙТИ</a>
+</div>
+
+<div class="main">
+    <h2>ДОБАВИТЬ ПОМЕЩЕНИЕ</h2>
+    <div class="pre-form add-user">
+        <form method="post">
+            <label>Номер <input class="num" type="text" name="number"></label>
+            <label>Название <input class="rtit" type="text" name="room_title"></label>
+            <label>Вид <select class="rtyp" name="room_type">
+                <option value="value1">1</option>
+                <option value="value2">2</option>
+              </select></label>
+              <a href="#">Менеджер видов</a>
+            <label>Площадь <input class="sq" type="text" name="square"></label>
+            <label>Кол-во мест <input class="ct" type="text" name="count"></label>
+            <label>Подразделение <select class="uni" name="room_unit">
+                <option value="value1">1</option>
+                <option value="value2">2</option>
+              </select></label>
+              <a href="#">Добавить Подразделение</a>
+            <button>Добавить</button>
+        </form>
+    </div>
+</div>
+
+<div class="footer">
+  <p>HOWAITOSUNEIKU</p>
+</div>
+</body>
+</html>

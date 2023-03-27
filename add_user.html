@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WHITESNAKE</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<div class="header">
+  <a href="#">ПОДРАЗДЕЛЕНИЯ</a>
+  <a href="#">ВСЕ ПОМЕЩЕНИЯ</a>
+  <form>
+    <input type="search" name="search_input" id="search">
+    <button>Поиск</button>
+  </form>
+  <a href="#">ДОБАВИТЬ ПОЛЬЗОВАТЕЛЯ</a>
+  <a href="#">ВОЙТИ</a>
+</div>
+
+<div class="main">
+    <h2>ДОБАВИТЬ ПОЛЬЗОВАТЕЛЯ</h2>
+    <div class="pre-form add-user">
+        <form method="post">
+            <label>Имя <input class="fnam" type="text" name="fname"></label>
+            <label>Фамилия <input class="lnam" type="text" name="lname"></label>
+            <label>Отчество <input class="pat" type="text" name="patronymic"></label>
+            <label>Логин <input class="log" type="text" name="login"></label>
+            <label>Роль <select class="prof" name="profession">
+                <option value="value1">Сотрупник</option>
+                <option value="value2">Админ</option>
+              </select></label>
+              <a href="#">Менеджер ролей</a>
+            <label>Пароль <input class="pass" type="password" name="password"></label>
+            <button>Добавить</button>
+        </form>
+    </div>
+</div>
+
+<div class="footer">
+  <p>HOWAITOSUNEIKU</p>
+</div>
+</body>
+</html>
