@@ -266,3 +266,24 @@ button:hover {
 .uni {
     margin-left: 10px;
 }
+
+.manager {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.type {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(131, 131, 131);
+    border-radius: 5px;
+}
+
+.type > p {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
